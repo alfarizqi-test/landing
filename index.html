@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Alfarizqi</title>
+
+  <!-- Font & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13QoNfXW2xOQ4o1wQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <span class="brand-mark"></span>
+        <span class="brand-text">Alpa</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero section">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="hero-kicker">Full-Stack Web Developer</p>
+          <h1>Hai, saya <span>Alfarizqi Himam Harakan</span>.</h1>
+          <p class="hero-subtitle">
+            Saya membangun website modern yang cepat, aman, dan mudah di-maintain.
+            Fokus pada clean code, UX yang nyaman, dan performa tinggi.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">Lihat Portfolio</a>
+            <a href="#contact" class="btn ghost">Hire saya</a>
+          </div>
+
+          <div class="hero-social">
+            <span>Terhubung:</span>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal delay-1">
+          <div class="hero-avatar">
+            <!-- Bisa diganti foto profil kamu -->
+            <span>NK</span>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <h2>Available for freelance</h2>
+              <p>Remote · Indonesia</p>
+            </div>
+            <div class="hero-tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>Next.js</span>
+              <span>Security-minded</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div class="reveal">
+          <h2 class="section-title">Tentang Saya</h2>
+          <p>
+            Saya adalah full-stack developer yang suka menggabungkan desain minimalis
+            dengan arsitektur backend yang solid. Terbiasa dengan REST API, autentikasi,
+            dan best practice keamanan aplikasi web.
+          </p>
+          <p>
+            Saya menikmati mengubah ide abstrak menjadi produk nyata yang
+            bisa di-deploy dan dipakai user tanpa drama.
+          </p>
+        </div>
+        <div class="about-cards reveal delay-1">
+          <article class="about-card">
+            <h3>Fokus Utama</h3>
+            <ul>
+              <li>Frontend modern (React / Next / Vue)</li>
+              <li>Backend scalable (Node, Express, Nest)</li>
+              <li>Optimasi performa & keamanan</li>
+            </ul>
+          </article>
+          <article class="about-card">
+            <h3>Value</h3>
+            <ul>
+              <li>Clean code & dokumentasi</li>
+              <li>Komunikasi yang jelas</li>
+              <li>Iterasi cepat dan terukur</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title center">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5 / CSS3 / Sass</li>
+              <li>JavaScript / TypeScript</li>
+              <li>React / Next.js</li>
+              <li>Tailwind / Styled Components</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal delay-1">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js / Express / Nest</li>
+              <li>REST API / GraphQL</li>
+              <li>MongoDB / PostgreSQL</li>
+              <li>Authentication & Authorization</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal delay-2">
+            <h3>DevOps & Lainnya</h3>
+            <ul>
+              <li>Docker & CI/CD dasar</li>
+              <li>Git & GitHub workflow</li>
+              <li>Testing (Jest, Vitest)</li>
+              <li>Security & best practice</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title center">Projects Pilihan</h2>
+        <p class="section-subtitle center">
+          Beberapa project yang merepresentasikan cara saya mendesain sistem & UI.
+        </p>
+
+        <div class="projects-grid">
+          <!-- Card 1 -->
+          <article class="project-card reveal">
+            <div class="project-thumb skeleton"></div>
+            <div class="project-body">
+              <h3>Student Savings Management</h3>
+              <p>
+                Single Page Application untuk monitoring data tabungan siswa dengan chart interaktif dan pilihan login.
+              </p>
+              <div class="project-meta">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
+                <a href="#" target="_blank" rel="noreferrer">
+                  <i class="fab fa-github"></i> Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="project-card reveal delay-1">
+            <div class="project-thumb skeleton"></div>
+            <div class="project-body">
+              <h3>Landing Page SaaS</h3>
+              <p>
+                Landing page responsif dengan fokus ke konversi, animasi halus, dan skor Lighthouse tinggi.
+              </p>
+              <div class="project-meta">
+                <span>Next.js</span>
+                <span>Tailwind</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
+                <a href="#" target="_blank" rel="noreferrer">
+                  <i class="fab fa-github"></i> Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="project-card reveal delay-2">
+            <div class="project-thumb skeleton"></div>
+            <div class="project-body">
+              <h3>API Auth Service</h3>
+              <p>
+                Layanan autentikasi terpisah dengan refresh token, role-based access,
+                dan hardening basic security.
+              </p>
+              <div class="project-meta">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">Dokumentasi</a>
+                <a href="#" target="_blank" rel="noreferrer">
+                  <i class="fab fa-github"></i> Source
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <h2 class="section-title">Kontak</h2>
+          <p>
+            Punya ide project atau butuh bantuan membangun produk digital? Kirim pesan,
+            dan saya akan balas secepat mungkin.
+          </p>
+
+          <div class="contact-info">
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <span>alfarizqi.stura@gmail.com</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Kabupaten Pekalongan, Jawa Tengah, Indonesia</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal delay-1">
+          <div class="field">
+            <label for="name">Nama</label>
+            <input type="text" id="name" placeholder="Nama lengkap" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@domain.com" required />
+          </div>
+          <div class="field">
+            <label for="message">Pesan</label>
+            <textarea id="message" rows="4" placeholder="Ceritakan kebutuhan project kamu..." required></textarea>
+          </div>
+          <button type="submit" class="btn primary full">Kirim Pesan</button>
+          <p class="form-note">Form ini hanya demo. Integrasikan dengan backend / service email kamu.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Nama Kamu. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
